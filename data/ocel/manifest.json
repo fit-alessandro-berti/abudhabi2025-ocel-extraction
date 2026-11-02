@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "format": "OCEL 2.0 JSON",
+  "compression": "gzip",
+  "file": "abudhabi-2025-race.ocel.json.gz",
+  "bytes": 176342,
+  "sha256_gzip": "ec18cb42008f970f25244ac3d8d35d2d0291a73dcc80ec51e98767fb642ea755",
+  "sha256_json": "2ea07dc5441b5a0254a8dc772c3e988738da4c74a89f461071319986c6682daf",
+  "events": 1513,
+  "objects": 1281,
+  "event_types": 21,
+  "object_types": 7,
+  "event_time_min": "2025-12-07T12:06:07.170000Z",
+  "event_time_max": "2025-12-07T14:39:07.948000Z",
+  "source_manifest": "data/raw/manifest.json",
+  "source_manifest_sha256": "84fc411afe1d05d5e256cbef7b535b47a635b955d53e3c13b6f91cea8536185b",
+  "software_sha256": {
+    "scripts/fetch_sources.py": "7f21fd5b0fa9e118cf567ebd10dc0d4634e035779178276ec9f0eec80d80da42",
+    "scripts/extract_ocel.py": "480cd46f9e5454ce0ce1ace70b43cf3b11aa6f95301e2c51637d3881a7e3a4e8",
+    "scripts/validate_ocel.py": "94e89fece749f4feacd40412a1c88dbb94e1c402089a40c353fca9b307b49ade",
+    "scripts/analyze_ocel.py": "d72486f03d6c71fc273cb336bbca71846004eafc03d737f783aff7aec3cb23ae",
+    "scripts/package_release.py": "8b313e105ddb836501b194521ce06f45275b89c7861d83872dbf95bf53721211",
+    "schemas/ocel20-extraction.schema.json": "21b49ef0778e57cd375e1b15019a892d102112851293d8cb5b9b19e66b60d555",
+    "requirements-lock.txt": "eed0b7535b0318eb8103a3470789573ec07645338e3d8f339b93c0622000f0aa"
+  },
+  "metadata": "metadata/zenodo.json",
+  "validation": "reports/validation.json",
+  "model": "MODEL.md"
+}

@@ -1,0 +1,13 @@
+# Sources, attribution and licensing
+
+The source is the public **OpenF1 API**, <https://openf1.org/>; API field documentation: <https://openf1.org/docs/>. All eight archived queries use `session_key=9839`, corresponding to the 7 December 2025 Abu Dhabi race at Yas Marina, meeting 1276. Exact URLs, UTC retrieval times and response hashes are in [data/raw/manifest.json](data/raw/manifest.json). The snapshot was retrieved on 2 November 2026 and matches the requested driver/lap/pit/stint counts exactly. Historical API responses can change; reproductions use the archive.
+
+OCEL format reference: [OCEL 2.0 JSON](https://www.ocel-standard.org/specification/formats/json/) and [specification overview](https://www.ocel-standard.org/specification/overview/). The local schema is an extraction validation profile authored for this repository. The official `/2.0/ocel20-schema-json.json` and `/2.1/ocel20-schema-json.json` download paths returned HTTP 404 when checked.
+
+The [OpenF1 pit ingestor at commit d5cab5c9bc673611f31f829422088f9e287f21da](https://github.com/br-g/openf1/blob/d5cab5c9bc673611f31f829422088f9e287f21da/src/openf1/services/ingestor_livetiming/core/processing/collections/pit.py) was inspected to understand the API's pit timestamp fallbacks. Its code is not vendored. The extraction uses the archived API responses, not a reconstructed live-timing feed.
+
+The existing repository [LICENSE](LICENSE) is GPL-3.0 and covers repository code. It does not replace the source data provider's terms. The OpenF1 website inspected on 2 November 2026 displays **CC BY-NC-SA 4.0** and describes educational, research and non-commercial uses. The proposed Zenodo data license field follows that provider notice: [Creative Commons Attribution–NonCommercial–ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Source attribution should accompany the derived dataset. OpenF1 is an independent project and does not claim ownership of Formula 1 data, trademarks or broadcasts; the derivation does not add a claim to those underlying rights.
+
+The transformation adds object identities, qualified relationships, activity classifications, timestamp derivations and reproducible validation/analysis. Original row values are retained wherever representable, with JSON arrays encoded as text and null attributes omitted in the OCEL. The unmodified API response bytes are recoverable by decompressing each raw `.json.gz` file.
+
+No Zenodo record, DOI, publication date, creator list or institutional affiliation is invented. The supplied metadata provides the requested title and description plus source links and descriptive fields for the uploader's record.
