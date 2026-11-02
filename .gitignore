@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local OCEL exports in all supported formats (without gzip)
+/exports_uncompressed/
