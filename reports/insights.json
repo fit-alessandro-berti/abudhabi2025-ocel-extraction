@@ -1,0 +1,1071 @@
+{
+  "log_sha256": "ec18cb42008f970f25244ac3d8d35d2d0291a73dcc80ec51e98767fb642ea755",
+  "drivers": [
+    {
+      "driver_number": 1,
+      "driver": "VER",
+      "team": "Red Bull Racing",
+      "result_position": 1,
+      "laps": 58,
+      "pit_stops": 1,
+      "strategy": "MEDIUM → HARD",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 23,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 24,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        23
+      ],
+      "lane_seconds_total": 21.703,
+      "stationary_seconds_observed": [
+        2.3
+      ],
+      "clean_lap_seconds": {
+        "n": 53,
+        "min": 87.625,
+        "median": 88.455,
+        "max": 89.772
+      }
+    },
+    {
+      "driver_number": 81,
+      "driver": "PIA",
+      "team": "McLaren",
+      "result_position": 2,
+      "laps": 58,
+      "pit_stops": 1,
+      "strategy": "HARD → MEDIUM",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "HARD",
+          "lap_start": 1,
+          "lap_end": 41,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "MEDIUM",
+          "lap_start": 42,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        41
+      ],
+      "lane_seconds_total": 21.565,
+      "stationary_seconds_observed": [
+        2.2
+      ],
+      "clean_lap_seconds": {
+        "n": 54,
+        "min": 86.765,
+        "median": 89.261,
+        "max": 89.926
+      }
+    },
+    {
+      "driver_number": 4,
+      "driver": "NOR",
+      "team": "McLaren",
+      "result_position": 3,
+      "laps": 58,
+      "pit_stops": 2,
+      "strategy": "MEDIUM → HARD → HARD",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 16,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 17,
+          "lap_end": 40,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 3,
+          "compound": "HARD",
+          "lap_start": 41,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        16,
+        40
+      ],
+      "lane_seconds_total": 42.73,
+      "stationary_seconds_observed": [
+        2.1,
+        2.4
+      ],
+      "clean_lap_seconds": {
+        "n": 53,
+        "min": 86.818,
+        "median": 88.226,
+        "max": 90.061
+      }
+    },
+    {
+      "driver_number": 16,
+      "driver": "LEC",
+      "team": "Ferrari",
+      "result_position": 4,
+      "laps": 58,
+      "pit_stops": 2,
+      "strategy": "MEDIUM → HARD → MEDIUM",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 16,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 17,
+          "lap_end": 39,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 3,
+          "compound": "MEDIUM",
+          "lap_start": 40,
+          "lap_end": 58,
+          "tyre_age_at_start": 3
+        }
+      ],
+      "pit_laps": [
+        16,
+        39
+      ],
+      "lane_seconds_total": 42.594,
+      "stationary_seconds_observed": [
+        2.5,
+        2.0
+      ],
+      "clean_lap_seconds": {
+        "n": 51,
+        "min": 86.725,
+        "median": 88.471,
+        "max": 90.087
+      }
+    },
+    {
+      "driver_number": 63,
+      "driver": "RUS",
+      "team": "Mercedes",
+      "result_position": 5,
+      "laps": 58,
+      "pit_stops": 1,
+      "strategy": "MEDIUM → HARD",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 14,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 15,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        14
+      ],
+      "lane_seconds_total": 21.979,
+      "stationary_seconds_observed": [
+        2.3
+      ],
+      "clean_lap_seconds": {
+        "n": 55,
+        "min": 88.599,
+        "median": 89.377,
+        "max": 90.629
+      }
+    },
+    {
+      "driver_number": 14,
+      "driver": "ALO",
+      "team": "Aston Martin",
+      "result_position": 6,
+      "laps": 58,
+      "pit_stops": 1,
+      "strategy": "MEDIUM → HARD",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 16,
+          "tyre_age_at_start": 1
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 17,
+          "lap_end": 58,
+          "tyre_age_at_start": 1
+        }
+      ],
+      "pit_laps": [
+        16
+      ],
+      "lane_seconds_total": 23.267,
+      "stationary_seconds_observed": [
+        4.1
+      ],
+      "clean_lap_seconds": {
+        "n": 55,
+        "min": 88.279,
+        "median": 89.968,
+        "max": 90.896
+      }
+    },
+    {
+      "driver_number": 31,
+      "driver": "OCO",
+      "team": "Haas F1 Team",
+      "result_position": 7,
+      "laps": 58,
+      "pit_stops": 1,
+      "strategy": "MEDIUM → HARD",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 19,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 20,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        19
+      ],
+      "lane_seconds_total": 22.254,
+      "stationary_seconds_observed": [
+        2.7
+      ],
+      "clean_lap_seconds": {
+        "n": 54,
+        "min": 88.655,
+        "median": 89.6745,
+        "max": 91.076
+      }
+    },
+    {
+      "driver_number": 44,
+      "driver": "HAM",
+      "team": "Ferrari",
+      "result_position": 8,
+      "laps": 58,
+      "pit_stops": 2,
+      "strategy": "SOFT → HARD → MEDIUM",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "SOFT",
+          "lap_start": 1,
+          "lap_end": 8,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 9,
+          "lap_end": 31,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 3,
+          "compound": "MEDIUM",
+          "lap_start": 32,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        8,
+        31
+      ],
+      "lane_seconds_total": 43.018,
+      "stationary_seconds_observed": [
+        2.4,
+        2.1
+      ],
+      "clean_lap_seconds": {
+        "n": 50,
+        "min": 88.094,
+        "median": 89.258,
+        "max": 91.793
+      }
+    },
+    {
+      "driver_number": 27,
+      "driver": "HUL",
+      "team": "Kick Sauber",
+      "result_position": 9,
+      "laps": 58,
+      "pit_stops": 2,
+      "strategy": "SOFT → HARD → MEDIUM",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "SOFT",
+          "lap_start": 1,
+          "lap_end": 7,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 8,
+          "lap_end": 42,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 3,
+          "compound": "MEDIUM",
+          "lap_start": 43,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        7,
+        42
+      ],
+      "lane_seconds_total": 43.068,
+      "stationary_seconds_observed": [
+        2.4
+      ],
+      "clean_lap_seconds": {
+        "n": 50,
+        "min": 87.05,
+        "median": 89.483,
+        "max": 91.813
+      }
+    },
+    {
+      "driver_number": 18,
+      "driver": "STR",
+      "team": "Aston Martin",
+      "result_position": 10,
+      "laps": 58,
+      "pit_stops": 1,
+      "strategy": "HARD → MEDIUM",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "HARD",
+          "lap_start": 1,
+          "lap_end": 42,
+          "tyre_age_at_start": 1
+        },
+        {
+          "stint_number": 2,
+          "compound": "MEDIUM",
+          "lap_start": 43,
+          "lap_end": 58,
+          "tyre_age_at_start": 1
+        }
+      ],
+      "pit_laps": [
+        42
+      ],
+      "lane_seconds_total": 21.535,
+      "stationary_seconds_observed": [
+        2.3
+      ],
+      "clean_lap_seconds": {
+        "n": 54,
+        "min": 87.626,
+        "median": 89.995,
+        "max": 92.002
+      }
+    },
+    {
+      "driver_number": 5,
+      "driver": "BOR",
+      "team": "Kick Sauber",
+      "result_position": 11,
+      "laps": 58,
+      "pit_stops": 1,
+      "strategy": "MEDIUM → HARD",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 15,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 16,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        15
+      ],
+      "lane_seconds_total": 22.121,
+      "stationary_seconds_observed": [
+        2.5
+      ],
+      "clean_lap_seconds": {
+        "n": 53,
+        "min": 89.114,
+        "median": 90.058,
+        "max": 91.051
+      }
+    },
+    {
+      "driver_number": 87,
+      "driver": "BEA",
+      "team": "Haas F1 Team",
+      "result_position": 12,
+      "laps": 58,
+      "pit_stops": 1,
+      "strategy": "MEDIUM → HARD",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 14,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 15,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        14
+      ],
+      "lane_seconds_total": 22.263,
+      "stationary_seconds_observed": [
+        3.0
+      ],
+      "clean_lap_seconds": {
+        "n": 54,
+        "min": 88.976,
+        "median": 89.715,
+        "max": 91.291
+      }
+    },
+    {
+      "driver_number": 55,
+      "driver": "SAI",
+      "team": "Williams",
+      "result_position": 13,
+      "laps": 58,
+      "pit_stops": 1,
+      "strategy": "MEDIUM → HARD",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 18,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 19,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        18
+      ],
+      "lane_seconds_total": 21.799,
+      "stationary_seconds_observed": [
+        2.7
+      ],
+      "clean_lap_seconds": {
+        "n": 54,
+        "min": 89.052,
+        "median": 89.7955,
+        "max": 91.984
+      }
+    },
+    {
+      "driver_number": 22,
+      "driver": "TSU",
+      "team": "Red Bull Racing",
+      "result_position": 14,
+      "laps": 58,
+      "pit_stops": 1,
+      "strategy": "HARD → MEDIUM",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "HARD",
+          "lap_start": 1,
+          "lap_end": 32,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "MEDIUM",
+          "lap_start": 33,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        32
+      ],
+      "lane_seconds_total": 27.041,
+      "stationary_seconds_observed": [
+        7.9
+      ],
+      "clean_lap_seconds": {
+        "n": 53,
+        "min": 88.557,
+        "median": 90.057,
+        "max": 91.462
+      }
+    },
+    {
+      "driver_number": 12,
+      "driver": "ANT",
+      "team": "Mercedes",
+      "result_position": 15,
+      "laps": 58,
+      "pit_stops": 1,
+      "strategy": "HARD → MEDIUM",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "HARD",
+          "lap_start": 1,
+          "lap_end": 32,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "MEDIUM",
+          "lap_start": 33,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        32
+      ],
+      "lane_seconds_total": 22.155,
+      "stationary_seconds_observed": [
+        2.6
+      ],
+      "clean_lap_seconds": {
+        "n": 52,
+        "min": 88.029,
+        "median": 90.05799999999999,
+        "max": 91.807
+      }
+    },
+    {
+      "driver_number": 23,
+      "driver": "ALB",
+      "team": "Williams",
+      "result_position": 16,
+      "laps": 58,
+      "pit_stops": 2,
+      "strategy": "SOFT → HARD → MEDIUM",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "SOFT",
+          "lap_start": 1,
+          "lap_end": 8,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 9,
+          "lap_end": 33,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 3,
+          "compound": "MEDIUM",
+          "lap_start": 34,
+          "lap_end": 58,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        8,
+        33
+      ],
+      "lane_seconds_total": 43.046,
+      "stationary_seconds_observed": [
+        2.1,
+        2.4
+      ],
+      "clean_lap_seconds": {
+        "n": 50,
+        "min": 88.367,
+        "median": 89.707,
+        "max": 91.71
+      }
+    },
+    {
+      "driver_number": 6,
+      "driver": "HAD",
+      "team": "Racing Bulls",
+      "result_position": 17,
+      "laps": 57,
+      "pit_stops": 1,
+      "strategy": "MEDIUM → HARD",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 14,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 15,
+          "lap_end": 57,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        14
+      ],
+      "lane_seconds_total": 21.932,
+      "stationary_seconds_observed": [
+        2.6
+      ],
+      "clean_lap_seconds": {
+        "n": 52,
+        "min": 89.375,
+        "median": 90.1695,
+        "max": 92.178
+      }
+    },
+    {
+      "driver_number": 30,
+      "driver": "LAW",
+      "team": "Racing Bulls",
+      "result_position": 18,
+      "laps": 57,
+      "pit_stops": 1,
+      "strategy": "MEDIUM → HARD",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 21,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 22,
+          "lap_end": 57,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        21
+      ],
+      "lane_seconds_total": 28.369,
+      "stationary_seconds_observed": [
+        8.9
+      ],
+      "clean_lap_seconds": {
+        "n": 52,
+        "min": 88.886,
+        "median": 89.6405,
+        "max": 92.152
+      }
+    },
+    {
+      "driver_number": 10,
+      "driver": "GAS",
+      "team": "Alpine",
+      "result_position": 19,
+      "laps": 57,
+      "pit_stops": 2,
+      "strategy": "MEDIUM → HARD → MEDIUM",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 13,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 14,
+          "lap_end": 40,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 3,
+          "compound": "MEDIUM",
+          "lap_start": 41,
+          "lap_end": 57,
+          "tyre_age_at_start": 3
+        }
+      ],
+      "pit_laps": [
+        13,
+        40
+      ],
+      "lane_seconds_total": 44.819,
+      "stationary_seconds_observed": [
+        3.0,
+        3.0
+      ],
+      "clean_lap_seconds": {
+        "n": 48,
+        "min": 87.767,
+        "median": 89.8815,
+        "max": 91.79
+      }
+    },
+    {
+      "driver_number": 43,
+      "driver": "COL",
+      "team": "Alpine",
+      "result_position": 20,
+      "laps": 57,
+      "pit_stops": 2,
+      "strategy": "MEDIUM → HARD → MEDIUM",
+      "stints": [
+        {
+          "stint_number": 1,
+          "compound": "MEDIUM",
+          "lap_start": 1,
+          "lap_end": 15,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 2,
+          "compound": "HARD",
+          "lap_start": 16,
+          "lap_end": 40,
+          "tyre_age_at_start": 0
+        },
+        {
+          "stint_number": 3,
+          "compound": "MEDIUM",
+          "lap_start": 41,
+          "lap_end": 57,
+          "tyre_age_at_start": 0
+        }
+      ],
+      "pit_laps": [
+        15,
+        40
+      ],
+      "lane_seconds_total": 44.908,
+      "stationary_seconds_observed": [
+        2.7,
+        3.6
+      ],
+      "clean_lap_seconds": {
+        "n": 49,
+        "min": 87.71,
+        "median": 89.841,
+        "max": 92.596
+      }
+    }
+  ],
+  "strategy_variants": {
+    "MEDIUM → HARD": 9,
+    "HARD → MEDIUM": 4,
+    "MEDIUM → HARD → HARD": 1,
+    "MEDIUM → HARD → MEDIUM": 3,
+    "SOFT → HARD → MEDIUM": 3
+  },
+  "pit_stop_count_variants": {
+    "1": 13,
+    "2": 7
+  },
+  "pit_lane_seconds": {
+    "n": 27,
+    "min": 20.902,
+    "median": 21.799,
+    "max": 28.369
+  },
+  "stationary_stop_seconds": {
+    "n": 26,
+    "min": 2.0,
+    "median": 2.5,
+    "max": 8.9
+  },
+  "filtered_lap_seconds_by_compound": {
+    "HARD": {
+      "n": 657,
+      "min": 86.818,
+      "median": 89.665,
+      "max": 92.596
+    },
+    "MEDIUM": {
+      "n": 374,
+      "min": 86.725,
+      "median": 89.5325,
+      "max": 92.07
+    },
+    "SOFT": {
+      "n": 15,
+      "min": 90.113,
+      "median": 90.515,
+      "max": 91.813
+    }
+  },
+  "lap_filter": "Exclude first lap, pit-in, pit-out, and every lap with a time-deletion notification anywhere in the snapshot. Retrospective descriptive filter, not causal or an online feature.",
+  "lap_deletion_notifications": 40,
+  "distinct_deleted_laps": 39,
+  "deletion_notification_delay_seconds": {
+    "n": 40,
+    "min": 1.966,
+    "median": 58.3765,
+    "max": 434.793
+  },
+  "multi_driver_control_messages": 25,
+  "race_control_messages_with_entry_link": 95,
+  "time_penalties_announced": 6,
+  "penalty_served_notifications": 2,
+  "weather_samples": 154,
+  "rainfall_values": [
+    0
+  ],
+  "track_temperature_celsius": {
+    "n": 154,
+    "min": 28.7,
+    "median": 30.95,
+    "max": 34.6
+  },
+  "race_entry_dfg_excluding_equal_timestamp_pairs": [
+    {
+      "from": "Lap completed",
+      "to": "Lap completed",
+      "count": 1005
+    },
+    {
+      "from": "Lap completed",
+      "to": "Lap time deleted",
+      "count": 38
+    },
+    {
+      "from": "Stint first lap started",
+      "to": "Lap completed",
+      "count": 33
+    },
+    {
+      "from": "Lap time deleted",
+      "to": "Lap completed",
+      "count": 33
+    },
+    {
+      "from": "Lap completed",
+      "to": "Stint first lap started",
+      "count": 27
+    },
+    {
+      "from": "Pit stop recorded",
+      "to": "Lap completed",
+      "count": 27
+    },
+    {
+      "from": "Lap completed",
+      "to": "Incident noted",
+      "count": 23
+    },
+    {
+      "from": "Incident noted",
+      "to": "Lap completed",
+      "count": 20
+    },
+    {
+      "from": "Investigation closed",
+      "to": "Lap completed",
+      "count": 13
+    },
+    {
+      "from": "Lap completed",
+      "to": "Investigation closed",
+      "count": 12
+    },
+    {
+      "from": "Lap completed",
+      "to": "Pit stop recorded",
+      "count": 12
+    },
+    {
+      "from": "Stint first lap started",
+      "to": "Pit stop recorded",
+      "count": 12
+    },
+    {
+      "from": "Investigation opened",
+      "to": "Lap completed",
+      "count": 9
+    },
+    {
+      "from": "Flag: BLACK AND WHITE",
+      "to": "Lap completed",
+      "count": 7
+    },
+    {
+      "from": "Incident noted",
+      "to": "Investigation opened",
+      "count": 7
+    },
+    {
+      "from": "Lap completed",
+      "to": "Investigation opened",
+      "count": 5
+    },
+    {
+      "from": "Lap completed",
+      "to": "Flag: BLACK AND WHITE",
+      "count": 5
+    },
+    {
+      "from": "Flag: BLUE",
+      "to": "Flag: BLUE",
+      "count": 5
+    },
+    {
+      "from": "Lap completed",
+      "to": "Flag: BLUE",
+      "count": 4
+    },
+    {
+      "from": "Flag: BLUE",
+      "to": "Lap completed",
+      "count": 4
+    },
+    {
+      "from": "Time penalty announced",
+      "to": "Lap completed",
+      "count": 3
+    },
+    {
+      "from": "Lap time deleted",
+      "to": "Pit stop recorded",
+      "count": 3
+    },
+    {
+      "from": "Lap completed",
+      "to": "Time penalty announced",
+      "count": 3
+    },
+    {
+      "from": "Lap time deleted",
+      "to": "Incident noted",
+      "count": 2
+    },
+    {
+      "from": "Investigation opened",
+      "to": "Time penalty announced",
+      "count": 2
+    },
+    {
+      "from": "Lap time deleted",
+      "to": "Flag: BLACK AND WHITE",
+      "count": 2
+    },
+    {
+      "from": "Incident noted",
+      "to": "Incident noted",
+      "count": 2
+    },
+    {
+      "from": "Investigation opened",
+      "to": "Investigation opened",
+      "count": 2
+    },
+    {
+      "from": "Lap completed",
+      "to": "Penalty served reported",
+      "count": 2
+    },
+    {
+      "from": "Penalty served reported",
+      "to": "Lap completed",
+      "count": 2
+    },
+    {
+      "from": "Stint first lap started",
+      "to": "Lap time deleted",
+      "count": 2
+    },
+    {
+      "from": "Last recorded lap completed",
+      "to": "Time penalty announced",
+      "count": 1
+    },
+    {
+      "from": "Time penalty announced",
+      "to": "Incident noted",
+      "count": 1
+    },
+    {
+      "from": "Time penalty announced",
+      "to": "Investigation closed",
+      "count": 1
+    },
+    {
+      "from": "Last recorded lap completed",
+      "to": "Incident noted",
+      "count": 1
+    }
+  ],
+  "equal_timestamp_adjacent_pairs_excluded": 20
+}

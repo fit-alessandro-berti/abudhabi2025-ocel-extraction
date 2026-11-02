@@ -1,0 +1,106 @@
+{
+  "raw_counts": {
+    "sessions": 1,
+    "drivers": 20,
+    "laps": 1156,
+    "pit": 27,
+    "stints": 47,
+    "race_control": 109,
+    "weather": 154,
+    "session_result": 20
+  },
+  "lap_boundary_residual_seconds": {
+    "min": -0.971,
+    "max": 1.052,
+    "absolute_over_one_second": 1,
+    "negative": 578
+  },
+  "pit_timestamp_seconds_after_next_lap_start": {
+    "min": 19.649,
+    "max": 27.288
+  },
+  "source_nulls": {
+    "sessions": {},
+    "drivers": {
+      "country_code": 20,
+      "headshot_url": 1
+    },
+    "laps": {
+      "i1_speed": 232,
+      "duration_sector_1": 2
+    },
+    "pit": {
+      "stop_duration": 1
+    },
+    "stints": {},
+    "race_control": {
+      "driver_number": 93,
+      "sector": 107,
+      "qualifying_phase": 109,
+      "flag": 88,
+      "scope": 88
+    },
+    "weather": {},
+    "session_result": {
+      "duration": 4
+    }
+  },
+  "independent_reader": {
+    "pm4py_version": "2.7.23.11",
+    "events": 1513,
+    "objects": 1281,
+    "e2o_relations": 6847,
+    "o2o_relations": 2557,
+    "object_changes": 1126,
+    "first_non_epoch_values_promoted_to_static_by_pm4py": 86,
+    "reader_caveat": "PM4Py stores first attribute values in its static object table, losing their initial effective timestamps there; use original JSON for as-of state analysis.",
+    "race_entry_traces": 20,
+    "flattened_race_entry_rows": 1370,
+    "ocdfg_distinct_edges_by_object_type": {
+      "Driver": 36,
+      "Lap": 6,
+      "RaceEntry": 36,
+      "RaceSession": 52,
+      "Team": 11,
+      "TyreStint": 6
+    }
+  },
+  "status": "passed",
+  "log_file": "data/ocel/abudhabi-2025-race.ocel.json.gz",
+  "sha256_gzip": "ec18cb42008f970f25244ac3d8d35d2d0291a73dcc80ec51e98767fb642ea755",
+  "sha256_json": "2ea07dc5441b5a0254a8dc772c3e988738da4c74a89f461071319986c6682daf",
+  "byte_reproducible": true,
+  "schema": "locally authored strict OCEL 2.0 profile; not official schema",
+  "event_types": {
+    "DRS status reported": 2,
+    "Flag: BLACK AND WHITE": 7,
+    "Flag: BLUE": 9,
+    "Flag: CHEQUERED": 1,
+    "Flag: CLEAR": 1,
+    "Flag: DOUBLE YELLOW": 1,
+    "Flag: GREEN": 2,
+    "Incident noted": 16,
+    "Investigation closed": 7,
+    "Investigation opened": 8,
+    "Lap completed": 1156,
+    "Lap time deleted": 40,
+    "Last recorded lap completed": 20,
+    "Penalty served reported": 2,
+    "Pit stop recorded": 27,
+    "Race control message": 5,
+    "Session status: SESSION FINISHED": 1,
+    "Session status: SESSION STARTED": 1,
+    "Stint first lap started": 47,
+    "Time penalty announced": 6,
+    "Weather sampled": 154
+  },
+  "object_types": {
+    "Driver": 20,
+    "Lap": 1156,
+    "PitStop": 27,
+    "RaceEntry": 20,
+    "RaceSession": 1,
+    "Team": 10,
+    "TyreStint": 47
+  }
+}
