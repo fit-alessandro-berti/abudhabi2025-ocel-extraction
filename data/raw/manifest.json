@@ -1,0 +1,72 @@
+{
+  "provider": "OpenF1",
+  "session_key": 9839,
+  "meeting_key": 1276,
+  "documentation": "https://openf1.org/docs/",
+  "sources": {
+    "sessions": {
+      "url": "https://api.openf1.org/v1/sessions?session_key=9839",
+      "retrieved_at_utc": "2026-11-02T07:34:22.161339+00:00",
+      "records": 1,
+      "file": "sessions.json.gz",
+      "sha256_response": "3142d121850d1a55dbba949a8fd8a9b0e1abc3961a131727db72be45c43cd281",
+      "sha256_gzip": "2a76d9fa793703343f0c905e4a32b66e3bdf15e3b943f503cd938fcebe430c93"
+    },
+    "drivers": {
+      "url": "https://api.openf1.org/v1/drivers?session_key=9839",
+      "retrieved_at_utc": "2026-11-02T07:34:24.295502+00:00",
+      "records": 20,
+      "file": "drivers.json.gz",
+      "sha256_response": "8032440666859103d5cf486e23a31ef87dba4e653f8cd9ee6eee35e086296ede",
+      "sha256_gzip": "1f5cf2697bd2833137b366f4fda123ab4278e36565f0af6c2ae19bff835bd0ad"
+    },
+    "laps": {
+      "url": "https://api.openf1.org/v1/laps?session_key=9839",
+      "retrieved_at_utc": "2026-11-02T07:34:26.591158+00:00",
+      "records": 1156,
+      "file": "laps.json.gz",
+      "sha256_response": "8a6a850686c75cde7620c8bea5f7882cc8205173941db7a03f21adde8d6afca2",
+      "sha256_gzip": "2e17f40e386ffe604e105ec252c6b465548d1086b6f4a30b35da9382c06e9aa1"
+    },
+    "pit": {
+      "url": "https://api.openf1.org/v1/pit?session_key=9839",
+      "retrieved_at_utc": "2026-11-02T07:34:28.732205+00:00",
+      "records": 27,
+      "file": "pit.json.gz",
+      "sha256_response": "c57bfee7eabafcc2da3bddef5a3cbac7ecad2498bfa63171c33fb312683101f5",
+      "sha256_gzip": "cadae4ad3957e1d8e834f294694cd26045f4738110580db7b24000ea14f7db66"
+    },
+    "stints": {
+      "url": "https://api.openf1.org/v1/stints?session_key=9839",
+      "retrieved_at_utc": "2026-11-02T07:34:30.872129+00:00",
+      "records": 47,
+      "file": "stints.json.gz",
+      "sha256_response": "2bb36a0f4bc367d8af5469b8a5d8b94837edaf2beedbc8418ef995bf3e606acb",
+      "sha256_gzip": "fcd4fb85232e7c2a9e9f0a50bcabe3b247b86266026098559ab8f7934705fa7b"
+    },
+    "race_control": {
+      "url": "https://api.openf1.org/v1/race_control?session_key=9839",
+      "retrieved_at_utc": "2026-11-02T07:34:33.024467+00:00",
+      "records": 109,
+      "file": "race_control.json.gz",
+      "sha256_response": "ab1c1abbb9a3d964efd8f7ca4226a71ef2bd9da812ea704bc2c93caa0a9d380c",
+      "sha256_gzip": "294cd666f8030d0eaab024ba70f6eca237cff56e6de2c067dac6ebe24280a8a2"
+    },
+    "weather": {
+      "url": "https://api.openf1.org/v1/weather?session_key=9839",
+      "retrieved_at_utc": "2026-11-02T07:34:35.185145+00:00",
+      "records": 154,
+      "file": "weather.json.gz",
+      "sha256_response": "e6a70cb7a15fcd3db938170d061bbeebb4a8396219f197fc0279e6fd76d9aa6d",
+      "sha256_gzip": "e1d9a3f96be57fad149ea6ab91bf1517ef2adca3181aa8266075390d08754bdc"
+    },
+    "session_result": {
+      "url": "https://api.openf1.org/v1/session_result?session_key=9839",
+      "retrieved_at_utc": "2026-11-02T07:34:37.335457+00:00",
+      "records": 20,
+      "file": "session_result.json.gz",
+      "sha256_response": "fafe2397cd5e6b6e74b3dd14d164c5d655b33f344106640d75f5167598eed04c",
+      "sha256_gzip": "74ee518ce49beb4ca844f84a7169c21f2860e87e836792c985646c79e92de2d0"
+    }
+  }
+}
