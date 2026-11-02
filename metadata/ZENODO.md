@@ -18,6 +18,8 @@ The accompanying repository provides archived source responses and checksums, de
 
 The data are intended for descriptive and methodological research. A single race, approximate timing and delayed control messages do not establish causal strategy advantage or precise physical incident times. Source attribution: OpenF1, https://openf1.org/ and https://openf1.org/docs/. Extraction and documentation: https://github.com/fit-alessandro-berti/abudhabi2025-ocel-extraction.
 
+Acknowledgments: We thank Jean-Christophe Schmitt (jean-christophe.schmitt@rwth-aachen.de) for suggesting the extraction of this dataset and performing a preliminary OCEL extraction. The present release provides a further refined extraction.
+
 ## Additional fields
 
 - Resource type: Dataset.
